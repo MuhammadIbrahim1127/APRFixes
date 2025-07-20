@@ -1,0 +1,31 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 21:28:37 CEST 2025
+Number of Plausible Fixes: 3
+Total Number of Patches: 58
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 1
+	Total Rank: 50
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/codex/Solution.java
+	Line Number: 20
+	Rank: 2
+	Total Rank: 55
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: RemoveConditionalMutator_EQUAL_IF
+	Description: removed conditional - replaced equality check with true
+	File Name: com/codex/Solution.java
+	Line Number: 20
+	Rank: 3
+	Total Rank: 58
+	Dump: mutant-2.class
+------------------------------------------------

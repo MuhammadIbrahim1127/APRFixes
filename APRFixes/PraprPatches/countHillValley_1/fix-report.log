@@ -1,0 +1,40 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 22:26:00 CEST 2025
+Number of Plausible Fixes: 4
+Total Number of Patches: 43
+================================================
+1.
+	Mutator: RemoveConditionalMutator_ORDER_IF
+	Description: removed conditional - replaced comparison check with true
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 4
+	Total Rank: 43
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 4
+	Total Rank: 43
+	Dump: mutant-2.class
+------------------------------------------------
+3.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 4
+	Total Rank: 43
+	Dump: mutant-1.class
+------------------------------------------------
+4.
+	Mutator: MathMutator
+	Description: Replaced integer subtraction with addition
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 4
+	Total Rank: 43
+	Dump: mutant-4.class
+------------------------------------------------

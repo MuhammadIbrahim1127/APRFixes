@@ -1,0 +1,58 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 22:27:12 CEST 2025
+Number of Plausible Fixes: 6
+Total Number of Patches: 39
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local num1 is replaced by local count to be used
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 3
+	Total Rank: 33
+	Dump: mutant-6.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local num2 is replaced by local num1 to be used
+	File Name: com/codex/Solution.java
+	Line Number: 13
+	Rank: 3
+	Total Rank: 33
+	Dump: mutant-5.class
+------------------------------------------------
+3.
+	Mutator: LocalNameMutator
+	Description: local num1 is replaced by local count to be used
+	File Name: com/codex/Solution.java
+	Line Number: 17
+	Rank: 3
+	Total Rank: 33
+	Dump: mutant-3.class
+------------------------------------------------
+4.
+	Mutator: RemoveConditionalMutator_ORDER_IF
+	Description: removed conditional - replaced comparison check with true
+	File Name: com/codex/Solution.java
+	Line Number: 13
+	Rank: 4
+	Total Rank: 36
+	Dump: mutant-2.class
+------------------------------------------------
+5.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/codex/Solution.java
+	Line Number: 13
+	Rank: 6
+	Total Rank: 39
+	Dump: mutant-4.class
+------------------------------------------------
+6.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 6
+	Total Rank: 39
+	Dump: mutant-1.class
+------------------------------------------------

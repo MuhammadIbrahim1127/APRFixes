@@ -1,0 +1,13 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 22:28:51 CEST 2025
+Number of Plausible Fixes: 1
+Total Number of Patches: 77
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local a is replaced by local count to be used
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 1
+	Total Rank: 77
+	Dump: mutant-1.class
+------------------------------------------------

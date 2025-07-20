@@ -1,0 +1,121 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 22:20:23 CEST 2025
+Number of Plausible Fixes: 13
+Total Number of Patches: 66
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 1
+	Total Rank: 1
+	Dump: mutant-7.class
+------------------------------------------------
+2.
+	Mutator: BooleanFalseReturnValsMutator
+	Description: replaced boolean return with false for com/codex/Solution::checkAlmostEquivalent
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 3
+	Total Rank: 3
+	Dump: mutant-12.class
+------------------------------------------------
+3.
+	Mutator: ReturnValsMutator
+	Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 3
+	Total Rank: 3
+	Dump: mutant-5.class
+------------------------------------------------
+4.
+	Mutator: RemoveConditionalMutator_ORDER_ELSE
+	Description: removed conditional - replaced comparison check with false
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 6
+	Total Rank: 46
+	Dump: mutant-14.class
+------------------------------------------------
+5.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 6
+	Total Rank: 46
+	Dump: mutant-3.class
+------------------------------------------------
+6.
+	Mutator: RemoveConditionalMutator_ORDER_IF
+	Description: removed conditional - replaced comparison check with true
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 6
+	Total Rank: 46
+	Dump: mutant-8.class
+------------------------------------------------
+7.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 7
+	Total Rank: 50
+	Dump: mutant-4.class
+------------------------------------------------
+8.
+	Mutator: LocalNameMutator
+	Description: local i is replaced by local count to be used
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 10
+	Total Rank: 61
+	Dump: mutant-15.class
+------------------------------------------------
+9.
+	Mutator: LocalNameMutator
+	Description: local freq1 is replaced by local freq2 to be used
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 10
+	Total Rank: 61
+	Dump: mutant-2.class
+------------------------------------------------
+10.
+	Mutator: LocalNameMutator
+	Description: local freq2 is replaced by local freq1 to be used
+	File Name: com/codex/Solution.java
+	Line Number: 17
+	Rank: 10
+	Total Rank: 61
+	Dump: mutant-10.class
+------------------------------------------------
+11.
+	Mutator: MathMutator
+	Description: Replaced integer addition with subtraction
+	File Name: com/codex/Solution.java
+	Line Number: 17
+	Rank: 13
+	Total Rank: 66
+	Dump: mutant-1.class
+------------------------------------------------
+12.
+	Mutator: MathMutator
+	Description: Replaced integer subtraction with addition
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 13
+	Total Rank: 66
+	Dump: mutant-6.class
+------------------------------------------------
+13.
+	Mutator: MathMutator
+	Description: Replaced integer addition with subtraction
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 13
+	Total Rank: 66
+	Dump: mutant-11.class
+------------------------------------------------

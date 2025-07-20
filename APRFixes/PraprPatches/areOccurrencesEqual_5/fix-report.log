@@ -1,0 +1,571 @@
+PraPR 2 (JDK 1.7) Fix Report - Sun Jul 20 21:34:20 CEST 2025
+Number of Plausible Fixes: 63
+Total Number of Patches: 170
+================================================
+1.
+	Mutator: ArgumentsListMutator
+	Description: replaced call to <init>()V with a call to <init>(I)V
+	File Name: com/codex/Solution.java
+	Line Number: 11
+	Rank: 1
+	Total Rank: 67
+	Dump: mutant-15.class
+------------------------------------------------
+2.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 3
+	Total Rank: 74
+	Dump: mutant-3.class
+------------------------------------------------
+3.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: com/codex/Solution.java
+	Line Number: 21
+	Rank: 3
+	Total Rank: 74
+	Dump: mutant-33.class
+------------------------------------------------
+4.
+	Mutator: MethodNameMutator
+	Description: replaced call to length with a call to hashCode
+	File Name: com/codex/Solution.java
+	Line Number: 23
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-11.class
+------------------------------------------------
+5.
+	Mutator: MethodNameMutator
+	Description: replaced call to intValue with a call to hashCode
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-57.class
+------------------------------------------------
+6.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-5.class
+------------------------------------------------
+7.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-34.class
+------------------------------------------------
+8.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Integer.valueOf(I)Ljava/lang/Integer; is replaced by an instantiation of type java.lang.Integer using (I)V
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-46.class
+------------------------------------------------
+9.
+	Mutator: MethodNameMutator
+	Description: replaced call to put with a call to putIfAbsent
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-26.class
+------------------------------------------------
+10.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Integer.valueOf(I)Ljava/lang/Integer; is replaced by an instantiation of type java.lang.Integer using (I)V
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-24.class
+------------------------------------------------
+11.
+	Mutator: MethodNameMutator
+	Description: replaced call to put with a call to replace
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-31.class
+------------------------------------------------
+12.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-55.class
+------------------------------------------------
+13.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-10.class
+------------------------------------------------
+14.
+	Mutator: MethodNameMutator
+	Description: replaced call to intValue with a call to hashCode
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-60.class
+------------------------------------------------
+15.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-40.class
+------------------------------------------------
+16.
+	Mutator: MethodNameMutator
+	Description: replaced call to get with a call to remove
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-37.class
+------------------------------------------------
+17.
+	Mutator: MethodNameMutator
+	Description: the call to factory method java.lang.Character.valueOf(C)Ljava/lang/Character; is replaced by an instantiation of type java.lang.Character using (C)V
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-50.class
+------------------------------------------------
+18.
+	Mutator: MethodNameMutator
+	Description: replaced call to intValue with a call to hashCode
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 18
+	Total Rank: 120
+	Dump: mutant-8.class
+------------------------------------------------
+19.
+	Mutator: LocalNameMutator
+	Description: local i is replaced by local x to be used
+	File Name: com/codex/Solution.java
+	Line Number: 24
+	Rank: 21
+	Total Rank: 128
+	Dump: mutant-61.class
+------------------------------------------------
+20.
+	Mutator: LocalNameMutator
+	Description: local i is replaced by local x to be used
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 21
+	Total Rank: 128
+	Dump: mutant-9.class
+------------------------------------------------
+21.
+	Mutator: LocalNameMutator
+	Description: local i is replaced by local x to be used
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 21
+	Total Rank: 128
+	Dump: mutant-44.class
+------------------------------------------------
+22.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-17.class
+------------------------------------------------
+23.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to intValue()I is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-18.class
+------------------------------------------------
+24.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::get(Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-47.class
+------------------------------------------------
+25.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-53.class
+------------------------------------------------
+26.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::containsKey(Ljava/lang/Object;)Z is guarded using default value false
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-43.class
+------------------------------------------------
+27.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to get(Ljava/lang/Object;)Ljava/lang/Object; is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-6.class
+------------------------------------------------
+28.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-49.class
+------------------------------------------------
+29.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to intValue()I is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-22.class
+------------------------------------------------
+30.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-63.class
+------------------------------------------------
+31.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::get(Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-68.class
+------------------------------------------------
+32.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-30.class
+------------------------------------------------
+33.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to length()I is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 23
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-42.class
+------------------------------------------------
+34.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-51.class
+------------------------------------------------
+35.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.Integer::intValue()I is guarded using default value 0
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-66.class
+------------------------------------------------
+36.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-25.class
+------------------------------------------------
+37.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to get(Ljava/lang/Object;)Ljava/lang/Object; is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-7.class
+------------------------------------------------
+38.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-48.class
+------------------------------------------------
+39.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-59.class
+------------------------------------------------
+40.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to get(Ljava/lang/Object;)Ljava/lang/Object; is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-56.class
+------------------------------------------------
+41.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::length()I is guarded using default value 0
+	File Name: com/codex/Solution.java
+	Line Number: 13
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-21.class
+------------------------------------------------
+42.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to length()I is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 23
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-41.class
+------------------------------------------------
+43.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-36.class
+------------------------------------------------
+44.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.Integer::intValue()I is guarded using default value 0
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-20.class
+------------------------------------------------
+45.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to get(Ljava/lang/Object;)Ljava/lang/Object; is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-65.class
+------------------------------------------------
+46.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to intValue()I is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-19.class
+------------------------------------------------
+47.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-28.class
+------------------------------------------------
+48.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-12.class
+------------------------------------------------
+49.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::get(Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-52.class
+------------------------------------------------
+50.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-38.class
+------------------------------------------------
+51.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-58.class
+------------------------------------------------
+52.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::length()I is guarded using default value 0
+	File Name: com/codex/Solution.java
+	Line Number: 23
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-27.class
+------------------------------------------------
+53.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-32.class
+------------------------------------------------
+54.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.Integer::intValue()I is guarded using default value 0
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-67.class
+------------------------------------------------
+55.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to intValue()I is guarded returning local res
+	File Name: com/codex/Solution.java
+	Line Number: 25
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-23.class
+------------------------------------------------
+56.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to length()I is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 13
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-35.class
+------------------------------------------------
+57.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.lang.String::charAt(I)C is guarded using default value '\0'
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-39.class
+------------------------------------------------
+58.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to get(Ljava/lang/Object;)Ljava/lang/Object; is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 27
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-64.class
+------------------------------------------------
+59.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to charAt(I)C is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-45.class
+------------------------------------------------
+60.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to intValue()I is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 15
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-4.class
+------------------------------------------------
+61.
+	Mutator: ReturningMethodCallGuardMutator
+	Description: the call to containsKey(Ljava/lang/Object;)Z is guarded returning default value false
+	File Name: com/codex/Solution.java
+	Line Number: 14
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-62.class
+------------------------------------------------
+62.
+	Mutator: MathMutator
+	Description: Replaced integer addition with subtraction
+	File Name: com/codex/Solution.java
+	Line Number: 16
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-54.class
+------------------------------------------------
+63.
+	Mutator: NonVoidMethodCallGuardMutator
+	Description: the call to java.util.Map::put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; is guarded using default value null
+	File Name: com/codex/Solution.java
+	Line Number: 19
+	Rank: 63
+	Total Rank: 170
+	Dump: mutant-29.class
+------------------------------------------------
